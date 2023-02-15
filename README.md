@@ -3,9 +3,9 @@
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ibrahim89&label=Profile%20views&color=0e75b6&style=flat" alt="ibrahim89" /> </p>
 
+- 🔭 I'm currently working on **Amex MGM Project**
 
-
-- 🌱 I’m currently learning **React Native, Redux**
+- 🌱 I’m currently learning **DevOps**
 
 - 👨‍💻 All of my projects are available at [https://ibrahim89.github.io/sayyed-ibrahim-abdullah.github.io/#/](https://ibrahim89.github.io/sayyed-ibrahim-abdullah.github.io/#/)
 
