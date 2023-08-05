@@ -1,5 +1,4 @@
-<h1 align="center">Hi 👋, I'm <a href="https://ibrahim89.github.io/sayyed-ibrahim-abdullah.github.io">Sayyed Ibrahim Abdullah</a></h1>
-<h3 align="center">A passionate full stack java developer from India</h3>
+![github-header-image](https://github.com/ibrahim89/ibrahim89/assets/20753671/05d3ee45-031a-4a42-b4e5-d3cb94f41353)
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ibrahim89&label=Profile%20views&color=0e75b6&style=flat" alt="ibrahim89" /> </p>
 
