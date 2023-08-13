@@ -4,7 +4,7 @@
 
 - 🔭 I'm currently working on **Amex Finance BPM Project**
 
-- 🌱 I’m currently learning **DevOps**
+- 🌱 I’m currently learning **AWS**
 - 👨‍💻 All of my projects are available at [https://ibrahim89.github.io/projects/#/](https://ibrahim89.github.io/projects//#/)
 
 
