@@ -93,7 +93,7 @@
     <a href="https://github.com/ibrahim89/github-readme-stats">
       <img alt="Ibrahim's GitHub Stats" src="https://github-readme-stats.vercel.app/api/?username=ibrahim89&show_icons=true&count_private=true"/>
     </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats">
+    <a href="https://github.com/ibrahim89/github-readme-stats">
       <img alt="ibrahim89's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahim89&langs_count=8&layout=compact"/>
     </a>
   </div>
