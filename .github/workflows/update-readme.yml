@@ -27,4 +27,4 @@ jobs:
           git config --global user.email "actions@github.com"
           git add README.md
           git commit -m "Updated GitHub stats" || echo "No changes to commit"
-          git push https://x-access-token:${GH_STATS_PAT}@github.com/ibrahim89/YOUR_REPO_NAME.git
+          git push https://x-access-token:${GH_STATS_PAT}@github.com/ibrahim89/ibrahim89.git
