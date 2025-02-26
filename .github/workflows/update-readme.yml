@@ -12,20 +12,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Fetch GitHub Stats
+      - name: Fetch GitHub Stats Image
         run: |
-          echo "<!-- START_GITHUB_STATS -->" > stats.md
-          echo "" >> stats.md
-          curl -H "Authorization: token ${{ secrets.GH_STATS_PAT }}" \
-               -H "Accept: application/vnd.github.v3+json" \
-               "https://github-readme-stats.vercel.app/api?username=ibrahim89&show_icons=true&theme=highcontrast&hide_border=true&bg_color=000000&title_color=ff6600&text_color=ffffff&icon_color=ffcc00&count_private=true" >> stats.md
-          echo "" >> stats.md
-          echo "<!-- END_GITHUB_STATS -->" >> stats.md
+          echo "![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ibrahim89&show_icons=true&count_private=true&theme=highcontrast&hide_border=true&bg_color=000000&title_color=ff6600&text_color=ffffff&icon_color=ffcc00)" > stats.md
 
       - name: Update README.md
         run: |
-          awk 'NR==FNR{a[NR]=$0; next} /<!-- START_GITHUB_STATS -->/{print; for(i=1;i<=NR;i++) print a[i]; found=1; next} /<!-- END_GITHUB_STATS -->/{found=0} !found' stats.md README.md > temp.md
-          mv temp.md README.md
+          sed -i '/<!-- START_GITHUB_STATS -->/,/<!-- END_GITHUB_STATS -->/c\<!-- START_GITHUB_STATS -->\n'"$(cat stats.md)"'\n<!-- END_GITHUB_STATS -->' README.md
 
       - name: Commit changes
         run: |
