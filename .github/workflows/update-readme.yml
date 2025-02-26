@@ -12,17 +12,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Update README with GitHub Stats
+      - name: Fetch GitHub Stats and Update README
         run: |
-          curl -H "Authorization: token ${{ secrets.GH_STATS_PAT }}" \
-          -H "Accept: application/vnd.github.v3+json" \
-          "https://github-readme-stats.vercel.app/api?username=ibrahim89&show_icons=true&count_private=true" \
-          -o README.md
+          echo "## GitHub Stats" > temp.md
+          echo "![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ibrahim89&show_icons=true&count_private=true)" >> temp.md
+          cat README.md >> temp.md
+          mv temp.md README.md
 
-      - name: Commit changes
+      - name: Commit and Push Changes
+        env:
+          GH_STATS_PAT: ${{ secrets.GH_STATS_PAT }}
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add README.md
           git commit -m "Updated GitHub stats" || echo "No changes to commit"
-          git push
+          git push https://x-access-token:${GH_STATS_PAT}@github.com/ibrahim89/YOUR_REPO_NAME.git
