@@ -1,0 +1,28 @@
+name: Update GitHub Stats in README
+
+on:
+  schedule:
+    - cron: "0 * * * *"  # Runs every hour
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Update README with GitHub Stats
+        run: |
+          curl -H "Authorization: token ${{ secrets.GH_STATS_PAT }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          "https://github-readme-stats.vercel.app/api?username=ibrahim89&show_icons=true&count_private=true" \
+          -o README.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "Updated GitHub stats" || echo "No changes to commit"
+          git push
