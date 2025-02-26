@@ -22,6 +22,10 @@ jobs:
       - name: Debug README changes
         run: |
           git diff README.md || echo "No changes detected"
+      - name: Pull latest changes
+        run: |
+          git pull origin main --rebase      
+
       - name: Commit changes
         run: |
           git config --global user.name "github-actions"
