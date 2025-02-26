@@ -90,8 +90,8 @@
 
 ## Github stats 📊 
 
- <!--START_SECTION:github_stats-->
- <!--END_SECTION:github_stats-->
+ <!--START_GITHUB_STATS-->
+ <!--END_GITHUB_STATS-->
 
 
 
