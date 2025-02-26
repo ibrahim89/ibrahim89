@@ -90,13 +90,8 @@
 
 ## Github stats 📊 
 
-<details> 
-  <summary>GitHub Profile Stats 💻</summary>
-  <br/>
  <!--START_SECTION:github_stats-->
  <!--END_SECTION:github_stats-->
-
-</details>
 
 
 
