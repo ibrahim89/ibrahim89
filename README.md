@@ -1,5 +1,4 @@
-## GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ibrahim89&show_icons=true&count_private=true)
+
 # :tada: :house: :star2: Welcome to ibrahim89 :muscle: :nerd_face: :coffee:
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ibrahim89&label=Profile%20views&color=0e75b6&style=flat" alt="ibrahim89" /> </p>
@@ -94,9 +93,19 @@
 <details> 
   <summary>GitHub Profile Stats 💻</summary>
   <br/>
-    <a href="https://github.com/ibrahim89/github-readme-stats"><img alt="ibrahim's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=ibrahim89&show_icons=true&count_private=true&&theme=highcontrast&hide_border=true&bg_color=000000&title_color=ff6600&text_color=ffffff&icon_color=ffcc00&include_all_commits=true&token=GH_STATS_PAT"/></a>
-  <a href="https://github.com/ibrahim89/github-readme-stats"><img alt="ibrahim's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahim89&langs_count=8&layout=compact&theme=default&hide_border=true&bg_color=fff&title_color=000&icon_color=000&hide=Jupyter%20Notebook&token=" height="192px"/></a>
+  <a href="https://github.com/ibrahim89/github-readme-stats">
+    <img alt="ibrahim's Github Stats" 
+         src="https://github-readme-stats.vercel.app/api/?username=ibrahim89&show_icons=true&count_private=true&theme=highcontrast&hide_border=true&bg_color=000000&title_color=ff6600&text_color=ffffff&icon_color=ffcc00&include_all_commits=true"/>
+  </a>
   <br/>
+  <a href="https://github.com/ibrahim89/github-readme-stats">
+    <img alt="ibrahim's Top Languages" 
+         src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahim89&langs_count=8&layout=compact&theme=default&hide_border=true&bg_color=fff&title_color=000&icon_color=000&hide=Jupyter%20Notebook" 
+         height="192px"/>
+  </a>
+  <br/>
+</details>
+
   
 
 </details>
