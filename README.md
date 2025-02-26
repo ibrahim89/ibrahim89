@@ -90,8 +90,7 @@
 
 ## Github stats 📊 
 
-<!-- START_GITHUB_STATS -->
-<!-- END_GITHUB_STATS -->
+<a href="https://github.com/ibrahim89/github-readme-stats"><img alt="ibrahim's Github Stats" src="https://github-readme-stats.vercel.app/api?username=ibrahim89&show_icons=true&count_private=true&theme=default&hide_border=true&bg_color=000000&title_color=ff6600&text_color=ffffff&icon_color=ffcc00&include_all_commits=true">
 
 
 
