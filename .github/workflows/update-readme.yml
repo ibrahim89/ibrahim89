@@ -18,7 +18,8 @@ jobs:
 
       - name: Update README.md
         run: |
-          sed -i '/<!-- START_GITHUB_STATS -->/,/<!-- END_GITHUB_STATS -->/c\<!-- START_GITHUB_STATS -->\n'"$(cat stats.md)"'\n<!-- END_GITHUB_STATS -->' README.md
+          sed -i '/<!-- *START_GITHUB_STATS *-->/,/<!-- *END_GITHUB_STATS *-->/c\<!-- START_GITHUB_STATS -->\n'"$(cat stats.md)"'\n<!-- END_GITHUB_STATS -->' README.md
+
       - name: Debug README changes
         run: |
           git diff README.md || echo "No changes detected"
