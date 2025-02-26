@@ -92,9 +92,11 @@
 <details> 
   <summary>GitHub Profile Stats 💻</summary>
   <br/>
-    <a href="https://github.com/ibrahim89/github-readme-stats"><img alt="ibrahim's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=ibrahim89&show_icons=true&count_private=true&theme=default&hide_border=true&bg_color=fff&title_color=00E676&icon_color=00E676" height="192px"/></a>
-  <a href="https://github.com/ibrahim89/github-readme-stats"><img alt="ibrahim's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahim89&langs_count=8&layout=compact&theme=default&hide_border=true&bg_color=fff&title_color=000&icon_color=000&hide=Jupyter%20Notebook" height="192px"/></a>
+    <a href="https://github.com/ibrahim89/github-readme-stats"><img alt="ibrahim's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=ibrahim89&show_icons=true&count_private=true&&theme=highcontrast&hide_border=true&bg_color=000000&title_color=ff6600&text_color=ffffff&icon_color=ffcc00&include_all_commits=true height="192px"/></a>
+  <a href="https://github.com/ibrahim89/github-readme-stats"><img alt="ibrahim's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahim89&langs_count=8&layout=compact&theme=default&hide_border=true&bg_color=fff&title_color=000&icon_color=000&hide=Jupyter%20Notebook&token=" height="192px"/></a>
   <br/>
+  
+
 </details>
 
 
